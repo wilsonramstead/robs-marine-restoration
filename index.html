@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rob&rsquo;s Marine Restoration | Boat Restoration &amp; Marine Upholstery &mdash; Lakeland, FL</title>
+<meta name="description" content="Rob&rsquo;s Marine Restoration rebuilds boats in Lakeland, Florida &mdash; rotten floors, stringers and transoms, fiberglass, marine carpet, seats, wiring, T-tops and stereo. Rated 4.9 stars across 32 Google reviews. Drop-off by appointment. Call (863) 937-2975.">
+<meta name="author" content="Rob&rsquo;s Marine Restoration">
+<meta name="theme-color" content="#0B1216">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rob&rsquo;s Marine Restoration">
+<meta property="og:title" content="Rob&rsquo;s Marine Restoration | Boat Restoration &amp; Marine Upholstery &mdash; Lakeland, FL">
+<meta property="og:description" content="Boats other people were told to give up on. Floors, stringers and transoms rebuilt, fiberglass, marine carpet, seats, wiring and T-tops. Lakeland, Florida. 4.9 stars, 32 Google reviews.">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://wilsoninnovations.net/robs-marine-restoration/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1755594483726-d19aaf29740b?w=1200&amp;h=630&amp;q=75&amp;auto=format&amp;fit=crop">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The helm and upholstered cockpit of a finished boat &mdash; Rob&rsquo;s Marine Restoration, Lakeland, FL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rob&rsquo;s Marine Restoration &mdash; Lakeland, FL">
+<meta name="twitter:description" content="Boat restoration and marine upholstery in Lakeland, Florida. 4.9 stars across 32 Google reviews. Call (863) 937-2975.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1755594483726-d19aaf29740b?w=1200&amp;h=630&amp;q=75&amp;auto=format&amp;fit=crop">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500;600;700;800&family=Mulish:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+
+<!-- Structured data (locality only &mdash; this is a private drop-off shop, no street address is published) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Rob's Marine Restoration",
+  "description": "Boat restoration and marine upholstery in Lakeland, Florida. Rotten floors, stringers and transoms rebuilt, fiberglass work, marine carpet, seats and upholstery, electronics and wiring, T-tops and stereo installs.",
+  "url": "https://wilsoninnovations.net/robs-marine-restoration/",
+  "image": "https://images.unsplash.com/photo-1755594483726-d19aaf29740b?w=1200&h=630&q=75&auto=format&fit=crop",
+  "telephone": "+18639372975",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lakeland",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": "Lakeland, Polk County, Florida",
+  "knowsAbout": [
+    "Boat restoration",
+    "Marine upholstery",
+    "Boat carpet replacement",
+    "Boat floor, stringer and transom rebuilds",
+    "Fiberglass repair",
+    "Boat seats",
+    "Marine electronics and wiring",
+    "T-top installation",
+    "Marine stereo installation"
+  ],
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "17:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "08:00", "closes": "16:00"}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "32"
+  }
+}
+</script>
+
+<style>
+/* =========================================================================
+   ROB'S MARINE RESTORATION &mdash; "Harbor Slate" showpiece treatment
+   Deep harbor-slate canvas, crisp sail-white type, varnished-mahogany accent.
+   Display: Podkova (slab) &middot; Body/UI: Mulish
+   Motion is transform/opacity only and gated behind prefers-reduced-motion.
+   ========================================================================= */
+:root{
+  /* canvas &mdash; harbor slate, a cool gray-blue black (not navy) */
+  --ink:#0B1216;
+  --ink-2:#111C22;
+  --ink-3:#18272F;
+  --ink-4:#1F323C;
+
+  /* crisp sail white */
+  --sail:#F4F8F9;
+  --sail-2:#DDE7EB;
+  --sail-dim:#9BAFB8;
+  --sail-faint:#71858F;
+
+  /* varnished mahogany &mdash; the accent (deep red-brown, no gold, no orange) */
+  --mah:#A6412E;
+  --mah-lit:#C96A50;
+  --mah-soft:#E3AE98;
+  --mah-deep:#67230F;
+
+  /* harbor slate &mdash; the secondary (gray-blue) */
+  --slate:#5C7E90;
+  --slate-lit:#8FB0C1;
+  --slate-deep:#2C4451;
+
+  --line:rgba(244,248,249,.15);
+  --line-soft:rgba(244,248,249,.07);
+  --glass:linear-gradient(180deg,rgba(244,248,249,.06),rgba(244,248,249,.014) 60%),rgba(17,28,34,.8);
+
+  --radius:8px;
+  --radius-lg:16px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+
+  --shadow-md:0 10px 28px rgba(0,0,0,.5), 0 30px 66px rgba(0,0,0,.38);
+  --shadow-lg:0 16px 44px rgba(0,0,0,.56), 0 52px 120px rgba(0,0,0,.46);
+  --glow-mah:0 0 0 1px rgba(201,106,80,.3), 0 12px 34px rgba(103,35,15,.5);
+  --maxw:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:clip;max-width:100%}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--sail-dim);
+  font-family:"Mulish",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size:16.5px;
+  line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{color:var(--sail);margin:0;line-height:1.08;font-weight:700}
+h1,h2,h3,.disp{font-family:"Podkova",Georgia,"Times New Roman",serif;letter-spacing:-.012em}
+p{margin:0 0 1em}
+a{color:inherit}
+img{max-width:100%;display:block}
+::selection{background:var(--mah);color:#fff}
+:focus-visible{outline:2px solid var(--mah-lit);outline-offset:3px;border-radius:4px}
+
+.wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 22px}
+section{position:relative}
+
+/* ---------- living aurora + grain ---------- */
+.amb{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.amb .blob{position:absolute;border-radius:50%;filter:blur(94px);opacity:.6}
+.amb .b1{width:72vw;height:72vw;max-width:840px;max-height:840px;left:-19vw;top:-16vw;
+  background:radial-gradient(circle,rgba(92,126,144,.72),rgba(92,126,144,0) 68%);animation:drift1 36s var(--ease) infinite alternate}
+.amb .b2{width:60vw;height:60vw;max-width:720px;max-height:720px;right:-15vw;top:24vh;
+  background:radial-gradient(circle,rgba(166,65,46,.5),rgba(166,65,46,0) 66%);animation:drift2 44s var(--ease) infinite alternate}
+.amb .b3{width:68vw;height:68vw;max-width:790px;max-height:790px;left:14vw;bottom:-26vw;
+  background:radial-gradient(circle,rgba(44,68,81,.9),rgba(44,68,81,0) 68%);animation:drift3 52s var(--ease) infinite alternate}
+@keyframes drift1{to{transform:translate3d(9%,7%,0) scale(1.14)}}
+@keyframes drift2{to{transform:translate3d(-9%,-7%,0) scale(1.11)}}
+@keyframes drift3{to{transform:translate3d(7%,-9%,0) scale(1.16)}}
+
+/* faint waterline ruling across the page */
+.swell{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+  background:repeating-linear-gradient(178deg,rgba(244,248,249,.022) 0 1px,rgba(244,248,249,0) 1px 15px)}
+.grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='140' height='140' filter='url(%23n)' opacity='.55'/></svg>")}
+.page{position:relative;z-index:2}
+@media (max-width:700px){
+  .amb .blob{filter:blur(66px);animation:none}
+  .swell{opacity:.34}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .amb .blob{animation:none}
+}
+
+/* ---------- shared bits ---------- */
+.kicker{font-weight:800;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mah-lit);margin:0 0 14px}
+.eyebrow{font-weight:800;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--sail-faint);margin:0 0 12px}
+.grad{background:linear-gradient(100deg,var(--mah-soft) 0%,var(--mah-lit) 45%,var(--mah) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.orn{display:flex;align-items:center;gap:12px;color:rgba(244,248,249,.3)}
+.orn .rule{height:1px;flex:1;max-width:170px;background:linear-gradient(90deg,currentColor,transparent)}
+.orn svg{width:20px;height:20px;flex:none;color:var(--mah-lit)}
+
+/* ---------- buttons ---------- */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;
+  padding:13px 24px;border-radius:var(--radius);text-decoration:none;font-weight:800;font-size:.98rem;
+  letter-spacing:.005em;border:1px solid transparent;overflow:hidden;
+  transition:transform .2s var(--ease),box-shadow .25s var(--ease),background .25s var(--ease),border-color .25s var(--ease)}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-mah{background:linear-gradient(158deg,var(--mah-lit) 0%,var(--mah) 52%,var(--mah-deep) 100%);color:#FFF3EE;
+  box-shadow:var(--glow-mah);border-color:rgba(255,255,255,.14)}
+.btn-mah::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+  background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.3),rgba(255,255,255,0));
+  transform:skewX(-18deg);transition:left .55s var(--ease)}
+.btn-mah:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(201,106,80,.48),0 18px 44px rgba(103,35,15,.6)}
+.btn-mah:hover::after{left:120%}
+.btn-ghost{background:rgba(244,248,249,.04);color:var(--sail);border-color:var(--line)}
+.btn-ghost:hover{transform:translateY(-2px);background:rgba(244,248,249,.09);border-color:rgba(244,248,249,.3)}
+@media (prefers-reduced-motion: reduce){
+  .btn,.btn:hover{transform:none}
+  .btn-mah::after{display:none}
+}
+
+/* ---------- header ---------- */
+header.site{position:sticky;top:0;z-index:60;background:transparent;
+  transition:background .3s var(--ease),box-shadow .3s var(--ease),border-color .3s var(--ease);
+  border-bottom:1px solid transparent}
+header.site.is-scrolled{background:var(--glass);-webkit-backdrop-filter:blur(14px) saturate(130%);
+  backdrop-filter:blur(14px) saturate(130%);border-bottom-color:var(--line-soft);box-shadow:0 10px 34px rgba(0,0,0,.42)}
+header.site .nav{display:flex;align-items:center;gap:14px;padding:12px 22px;min-height:72px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--sail);min-height:44px;min-width:0}
+.brand .mark{width:40px;height:40px;flex:none;display:grid;place-items:center;border-radius:11px;
+  border:1px solid rgba(244,248,249,.22);
+  background:linear-gradient(160deg,rgba(166,65,46,.9),rgba(44,68,81,.85));
+  color:var(--sail);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 8px 20px rgba(0,0,0,.42)}
+.brand .mark svg{width:22px;height:22px}
+.brand .bt{min-width:0}
+.brand b{display:block;font-family:"Podkova",serif;font-weight:700;font-size:1.02rem;line-height:1.14;
+  letter-spacing:-.005em;overflow-wrap:break-word}
+.brand .tag{display:block;font-size:.6rem;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--sail-faint);font-weight:800;margin-top:3px}
+.nav-right{display:flex;align-items:center;gap:8px;margin-left:auto;flex:none}
+.nav-links{display:flex;align-items:center;gap:2px;margin-right:6px}
+.nav-links .link{display:inline-flex;align-items:center;min-height:44px;padding:0 11px;text-decoration:none;
+  color:var(--sail-dim);font-weight:600;font-size:.89rem;border-radius:var(--radius);transition:color .2s,background .2s}
+.nav-links .link:hover{color:var(--sail);background:rgba(244,248,249,.07)}
+.txt-link{display:inline-flex;align-items:center;gap:7px;min-height:46px;padding:0 14px;border-radius:var(--radius);
+  text-decoration:none;color:var(--sail);font-weight:700;font-size:.88rem;border:1px solid var(--line);
+  background:rgba(244,248,249,.03);transition:background .2s,border-color .2s}
+.txt-link:hover{background:rgba(244,248,249,.09);border-color:rgba(244,248,249,.3)}
+.txt-link svg{width:17px;height:17px;flex:none}
+.callbtn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:6px 18px;border-radius:var(--radius);
+  text-decoration:none;background:linear-gradient(158deg,var(--mah-lit),var(--mah) 55%,var(--mah-deep));
+  color:#FFF3EE;box-shadow:var(--glow-mah);border:1px solid rgba(255,255,255,.14);
+  transition:transform .2s var(--ease),box-shadow .25s var(--ease)}
+.callbtn:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(201,106,80,.46),0 16px 38px rgba(103,35,15,.58)}
+.callbtn svg{width:19px;height:19px;flex:none}
+.callbtn .cn{display:block;font-weight:800;font-size:.97rem;line-height:1.15}
+.callbtn .cn small{display:block;font-weight:700;font-size:.61rem;letter-spacing:.15em;text-transform:uppercase;
+  opacity:.84;margin-top:2px}
+@media (max-width:1040px){.nav-links{display:none}}
+@media (max-width:600px){
+  header.site .nav{padding:12px 14px;gap:10px}
+  .callbtn{padding:0;width:48px;height:48px;justify-content:center;gap:0}
+  .callbtn .cn{display:none}
+  .txt-link{padding:0;width:46px;justify-content:center;gap:0}
+  .txt-link .label-txt{display:none}
+  .brand .tag{display:none}
+  .brand b{font-size:.95rem}
+}
+@media (max-width:360px){.brand .mark{display:none}}
+
+/* ---------- hero ---------- */
+.hero{padding:30px 0 62px;min-height:clamp(560px,86vh,820px);display:flex;align-items:center}
+.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:40px;align-items:center;width:100%}
+@media (max-width:980px){.hero-grid{grid-template-columns:1fr;gap:30px}}
+.hero h1{font-size:clamp(2.4rem,10.2vw,4.4rem);line-height:1.02;letter-spacing:-.022em;max-width:15ch;
+  text-wrap:balance;margin:0}
+@media (min-width:700px){.hero h1{font-size:clamp(3rem,6vw,4.4rem)}}
+.hero .lede{margin:22px 0 0;max-width:56ch;font-size:clamp(1.02rem,2.2vw,1.13rem);color:var(--sail-dim)}
+.hero .lede strong{color:var(--sail);font-weight:700}
+.hero .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.hero .btns .btn{flex:1 1 220px;max-width:300px}
+.chip{display:inline-flex;align-items:center;gap:11px;margin-top:22px;padding:9px 16px;border-radius:100px;
+  border:1px solid var(--line);background:rgba(244,248,249,.05);font-size:.86rem;color:var(--sail-dim);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.chip .stars{display:inline-flex;gap:2px;color:var(--mah-lit);flex:none}
+.chip .stars svg{width:15px;height:15px}
+.chip b{color:var(--sail);font-weight:800}
+.hero .note{margin:12px 0 0;font-size:.83rem;color:var(--sail-faint)}
+.hero-shot{position:relative;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--line);
+  box-shadow:var(--shadow-lg);background:var(--ink-2)}
+.hero-shot img{width:100%;height:100%;aspect-ratio:5/4;object-fit:cover;
+  animation:settle 15s var(--ease) forwards}
+@keyframes settle{from{transform:scale(1.09)}to{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){.hero-shot img{animation:none}}
+.hero-shot::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(11,18,22,.06) 0%,rgba(11,18,22,.5) 100%)}
+.hero-shot .cap{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;margin:0;
+  font-size:.76rem;letter-spacing:.11em;text-transform:uppercase;font-weight:800;color:rgba(244,248,249,.82)}
+@media (max-width:980px){.hero-shot img{aspect-ratio:16/10}}
+
+/* ---------- ticker ---------- */
+.ticker{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+  background:rgba(11,18,22,.55);overflow:hidden;padding:11px 0}
+.ticker .track{display:flex;width:max-content;animation:slide 46s linear infinite}
+.ticker .track span{font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;
+  color:var(--sail-faint);padding:0 20px;white-space:nowrap}
+.ticker .track span em{font-style:normal;color:var(--mah-lit)}
+@keyframes slide{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+@media (prefers-reduced-motion: reduce){.ticker .track{animation:none}}
+
+/* ---------- section shell ---------- */
+.sec{padding-top:74px;padding-right:0;padding-bottom:74px;padding-left:0}
+.sec-head{max-width:740px;margin:0 0 42px}
+.sec-head.mid{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head h2{font-size:clamp(1.95rem,5vw,3rem);letter-spacing:-.02em;text-wrap:balance}
+.sec-head p{margin:16px 0 0;color:var(--sail-dim)}
+
+/* ---------- stat band ---------- */
+.stats{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(44,68,81,.3),rgba(11,18,22,.44));
+  padding-top:46px;padding-right:0;padding-bottom:46px;padding-left:0}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{padding:24px 18px;border-radius:var(--radius);border:1px solid var(--line-soft);
+  background:rgba(244,248,249,.04);text-align:center}
+.stat .n{display:block;font-family:"Podkova",serif;font-weight:700;font-size:clamp(1.75rem,4.4vw,2.4rem);
+  color:var(--sail);line-height:1.05}
+.stat .n span{color:var(--mah-lit)}
+.stat .l{display:block;margin-top:10px;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;
+  font-weight:800;color:var(--sail-faint);line-height:1.55}
+@media (max-width:780px){.stat-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- resurrection cases ---------- */
+.cases{display:grid;gap:22px}
+.case{border-radius:var(--radius-lg);border:1px solid var(--line-soft);overflow:hidden;
+  background:linear-gradient(180deg,rgba(244,248,249,.055),rgba(244,248,249,.012) 55%),rgba(17,28,34,.76);
+  box-shadow:var(--shadow-md);display:grid;grid-template-columns:.82fr 1.18fr;
+  transition:transform .3s var(--ease),border-color .3s var(--ease),box-shadow .3s var(--ease)}
+.case:hover{transform:translateY(-4px);border-color:rgba(244,248,249,.22);box-shadow:var(--shadow-lg)}
+@media (max-width:900px){.case{grid-template-columns:1fr}}
+.case .shot{position:relative;min-height:230px;overflow:hidden;background:var(--ink-3)}
+.case .shot img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
+.case:hover .shot img{transform:scale(1.05)}
+.case .shot::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(105deg,rgba(11,18,22,.16),rgba(11,18,22,.62))}
+.case .body{padding:30px 28px 30px}
+.case .tagline{display:inline-flex;align-items:center;gap:8px;padding:5px 12px;border-radius:100px;
+  border:1px solid rgba(201,106,80,.36);background:rgba(166,65,46,.16);color:var(--mah-soft);
+  font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;margin-bottom:16px}
+.case h3{font-size:clamp(1.4rem,3.3vw,1.9rem);letter-spacing:-.015em}
+.case .q{margin:18px 0 0;padding-left:17px;border-left:2px solid rgba(201,106,80,.5);
+  font-size:.96rem;color:var(--sail-dim)}
+.case .q p{margin:0 0 .85em}
+.case .q p:last-of-type{margin-bottom:0}
+.case .by{display:block;margin-top:15px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:800;color:var(--sail-faint)}
+@media (max-width:520px){.case .body{padding:26px 20px}}
+
+/* ---------- work grid ---------- */
+.work{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(268px,100%),1fr));gap:16px}
+@media (min-width:960px){.work{grid-template-columns:repeat(3,1fr)}}
+.job{padding:26px 24px 26px;border-radius:var(--radius-lg);border:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(244,248,249,.05),rgba(244,248,249,.012) 60%),rgba(17,28,34,.7);
+  box-shadow:var(--shadow-md);
+  transition:transform .3s var(--ease),border-color .3s var(--ease),box-shadow .3s var(--ease)}
+.job:hover{transform:translateY(-4px);border-color:rgba(244,248,249,.22);box-shadow:var(--shadow-lg)}
+.job .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;margin-bottom:16px;
+  background:linear-gradient(160deg,rgba(166,65,46,.85),rgba(44,68,81,.8));
+  border:1px solid rgba(244,248,249,.16);color:var(--sail);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 8px 20px rgba(0,0,0,.4)}
+.job .ic svg{width:21px;height:21px}
+.job h3{font-size:1.24rem;letter-spacing:-.012em}
+.job p{margin:11px 0 0;font-size:.93rem;color:var(--sail-dim)}
+.job .src{display:block;margin-top:13px;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  font-weight:800;color:var(--mah-lit)}
+
+/* ---------- split feature ---------- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+@media (max-width:900px){.split{grid-template-columns:1fr;gap:26px}}
+.split.flip .shot{order:2}
+@media (max-width:900px){.split.flip .shot{order:0}}
+.split .shot{position:relative;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--line);
+  box-shadow:var(--shadow-lg);background:var(--ink-2)}
+.split .shot img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .8s var(--ease)}
+.split .shot:hover img{transform:scale(1.04)}
+.split .shot::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(11,18,22,.04),rgba(11,18,22,.42))}
+.split .txt h2{font-size:clamp(1.85rem,4.4vw,2.7rem);letter-spacing:-.02em;text-wrap:balance}
+.split .txt p{margin:16px 0 0;color:var(--sail-dim)}
+.split ul.ticks{list-style:none;margin:20px 0 0;padding:0}
+.split ul.ticks li{display:flex;gap:12px;padding:8px 0;font-size:.95rem;color:var(--sail-dim)}
+.split ul.ticks svg{width:19px;height:19px;flex:none;color:var(--mah-lit);margin-top:4px}
+.split ul.ticks b{color:var(--sail);font-weight:700}
+
+/* ---------- pull quote ---------- */
+.pull{padding-top:76px;padding-right:0;padding-bottom:76px;padding-left:0;
+  border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(103,35,15,.2),rgba(11,18,22,.5))}
+.pull .inner{max-width:840px;margin:0 auto;text-align:center}
+.pull .mk{font-family:"Podkova",serif;font-size:3.6rem;color:rgba(201,106,80,.42);line-height:.6;display:block}
+.pull blockquote{margin:20px 0 0;font-family:"Podkova",serif;font-weight:600;
+  font-size:clamp(1.2rem,3.2vw,1.85rem);line-height:1.42;color:var(--sail);letter-spacing:-.012em}
+.pull cite{display:block;margin-top:20px;font-style:normal;font-size:.73rem;letter-spacing:.18em;
+  text-transform:uppercase;font-weight:800;color:var(--sail-faint)}
+
+/* ---------- waitlist panel ---------- */
+.wait{border-radius:var(--radius-lg);border:1px solid rgba(201,106,80,.24);overflow:hidden;
+  background:linear-gradient(165deg,rgba(166,65,46,.14),rgba(17,28,34,.8));box-shadow:var(--shadow-md);
+  padding:34px 30px}
+@media (max-width:520px){.wait{padding:28px 20px}}
+.wait h3{font-size:clamp(1.5rem,3.6vw,2.05rem);letter-spacing:-.018em;text-wrap:balance}
+.wait p{margin:16px 0 0;color:var(--sail-dim)}
+.wait .q{margin:22px 0 0;padding:20px 22px;border-radius:var(--radius);border:1px solid var(--line-soft);
+  background:rgba(11,18,22,.5);font-size:.97rem;color:var(--sail-2)}
+.wait .q .by{display:block;margin-top:13px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:800;color:var(--sail-faint)}
+.wait .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.wait .btns .btn{flex:1 1 210px;max-width:300px}
+
+/* ---------- reviews ---------- */
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:16px}
+@media (min-width:1000px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
+.rev{padding:26px 24px;border-radius:var(--radius-lg);border:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(244,248,249,.05),rgba(244,248,249,.012) 60%),rgba(17,28,34,.7);
+  box-shadow:var(--shadow-md);transition:transform .3s var(--ease),border-color .3s var(--ease)}
+.rev:hover{transform:translateY(-4px);border-color:rgba(244,248,249,.22)}
+.rev .stars{display:inline-flex;gap:3px;color:var(--mah-lit);margin-bottom:14px}
+.rev .stars svg{width:16px;height:16px}
+.rev p{font-size:.95rem;color:var(--sail-dim);margin:0}
+.rev .who{display:flex;align-items:center;gap:11px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.rev .who .av{width:38px;height:38px;border-radius:11px;flex:none;display:grid;place-items:center;
+  font-family:"Podkova",serif;font-weight:700;font-size:.92rem;color:var(--sail);
+  background:linear-gradient(160deg,rgba(166,65,46,.85),rgba(44,68,81,.8));
+  border:1px solid rgba(244,248,249,.16)}
+.rev .who b{display:block;color:var(--sail);font-weight:800;font-size:.93rem}
+.rev .who span{display:block;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sail-faint);font-weight:800}
+.rev-foot{margin:30px auto 0;max-width:780px;text-align:center;font-size:.85rem;color:var(--sail-faint)}
+
+/* ---------- drop-off ---------- */
+.visit-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:start}
+@media (max-width:900px){.visit-grid{grid-template-columns:1fr}}
+.panel{padding:30px 28px;border-radius:var(--radius-lg);border:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(244,248,249,.05),rgba(244,248,249,.012) 60%),rgba(17,28,34,.72);
+  box-shadow:var(--shadow-md)}
+@media (max-width:520px){.panel{padding:26px 20px}}
+.panel h3{font-size:1.42rem;letter-spacing:-.015em}
+.panel p{margin:15px 0 0;font-size:.95rem;color:var(--sail-dim)}
+.panel .links{display:flex;flex-wrap:wrap;gap:11px;margin-top:22px}
+.panel .links .btn{flex:1 1 185px}
+.panel .fact{display:flex;gap:12px;margin-top:20px;font-size:.92rem;color:var(--sail-dim)}
+.panel .fact svg{width:19px;height:19px;flex:none;color:var(--mah-lit);margin-top:4px}
+.dropplate{margin:22px 0 0;padding:20px 18px;border-radius:var(--radius);text-align:center;
+  background:rgba(11,18,22,.55);border:1px dashed rgba(244,248,249,.2)}
+.dropplate .st{font-family:"Podkova",serif;font-weight:700;font-size:clamp(1.02rem,2.9vw,1.28rem);
+  color:var(--sail);line-height:1.36;display:block;letter-spacing:-.01em}
+.dropplate .ct{display:block;margin-top:9px;font-size:.72rem;letter-spacing:.17em;text-transform:uppercase;
+  font-weight:800;color:var(--sail-faint)}
+
+.hours{list-style:none;margin:20px 0 0;padding:0}
+.hours li{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 2px;
+  border-bottom:1px dashed rgba(244,248,249,.13);font-size:.94rem}
+.hours li:last-child{border-bottom:0}
+.hours .d{font-family:"Podkova",serif;font-weight:600;color:var(--sail-dim)}
+.hours .t{font-weight:700;color:var(--sail)}
+.hours .t.closed{color:var(--sail-faint);font-weight:500}
+.hours li.today{background:rgba(201,106,80,.11);border-radius:6px;padding-left:10px;padding-right:10px}
+.hours li.today .d{color:var(--sail)}
+.hours-note{margin:18px 0 0;font-size:.86rem;color:var(--sail-faint)}
+
+/* ---------- gallery strip ---------- */
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:780px){.strip{grid-template-columns:1fr}}
+.tile{position:relative;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--line-soft);
+  box-shadow:var(--shadow-md);background:var(--ink-2)}
+.tile img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .8s var(--ease)}
+.tile:hover img{transform:scale(1.05)}
+.tile::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(11,18,22,.02),rgba(11,18,22,.6))}
+.tile .cap{position:absolute;left:15px;right:15px;bottom:13px;z-index:2;margin:0;font-size:.75rem;
+  letter-spacing:.11em;text-transform:uppercase;font-weight:800;color:rgba(244,248,249,.85)}
+
+/* ---------- CTA band ---------- */
+.cta-band{padding-top:82px;padding-right:0;padding-bottom:82px;padding-left:0;text-align:center;
+  border-top:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(44,68,81,.34),rgba(11,18,22,.62))}
+.cta-band h2{font-size:clamp(2rem,5.4vw,3.2rem);letter-spacing:-.022em;text-wrap:balance}
+.cta-band p{max-width:660px;margin:18px auto 0;color:var(--sail-dim)}
+.cta-band .btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:28px}
+.cta-band .btns .btn{flex:1 1 220px;max-width:300px}
+.cta-band .fine{margin:22px 0 0;font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;color:var(--sail-faint)}
+
+/* ---------- footer ---------- */
+footer.site{padding-top:58px;padding-right:0;padding-bottom:34px;padding-left:0;
+  border-top:1px solid var(--line-soft);background:rgba(11,18,22,.76)}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:32px}
+@media (max-width:840px){.foot-grid{grid-template-columns:1fr;gap:28px}}
+.foot-brand .desc{margin:16px 0 18px;font-size:.92rem;max-width:430px}
+.foot-contact{display:flex;flex-wrap:wrap;gap:11px}
+.foot-col h4{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sail-faint);
+  margin:0 0 13px;font-weight:800;font-family:"Mulish",sans-serif}
+.foot-col ul{list-style:none;margin:0;padding:0}
+.foot-col li{margin-bottom:2px}
+.foot-col a,.foot-col .li{display:flex;align-items:center;gap:9px;min-height:44px;text-decoration:none;
+  color:var(--sail-dim);font-size:.92rem;transition:color .2s}
+.foot-col a:hover{color:var(--sail)}
+.foot-col svg{width:16px;height:16px;flex:none;color:var(--mah-lit)}
+.foot-bottom{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;
+  margin-top:38px;padding-top:20px;border-top:1px solid var(--line-soft);font-size:.82rem;color:var(--sail-faint)}
+.foot-bottom a{color:var(--sail-2);text-decoration:none;font-weight:700}
+.foot-bottom a:hover{color:var(--sail);text-decoration:underline}
+.foot-note{margin:20px 0 0;font-size:.76rem;line-height:1.72;color:rgba(113,133,143,.9)}
+.foot-note strong{color:var(--sail-dim)}
+
+/* ---------- reveals (JS-gated; JS-off shows everything) ---------- */
+.js .reveal{opacity:0;transform:translateY(26px) scale(.975);filter:blur(7px);
+  transition:opacity .8s var(--ease),transform .8s var(--ease),filter .8s var(--ease)}
+.js .reveal.is-visible{opacity:1;transform:none;filter:none}
+.work > .reveal:nth-child(3n+2),.rev-grid > .reveal:nth-child(3n+2),.strip > .reveal:nth-child(2),
+.stat-grid > .reveal:nth-child(2){transition-delay:.1s}
+.work > .reveal:nth-child(3n),.rev-grid > .reveal:nth-child(3n),.strip > .reveal:nth-child(3),
+.stat-grid > .reveal:nth-child(3){transition-delay:.2s}
+.stat-grid > .reveal:nth-child(4){transition-delay:.3s}
+@media (prefers-reduced-motion: reduce){
+  .js .reveal{opacity:1 !important;transform:none !important;filter:none !important;transition:none !important}
+}
+
+@media (max-width:520px){
+  .sec{padding-top:58px;padding-bottom:58px}
+  .hero{padding:22px 0 46px;min-height:0}
+  .chip{flex-wrap:wrap;border-radius:16px}
+  .hero .btns .btn,.cta-band .btns .btn,.wait .btns .btn{flex:1 1 100%;max-width:none}
+}
+</style>
+</head>
+<body>
+
+<div class="amb" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+</div>
+<div class="swell" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="page">
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Rob&rsquo;s Marine Restoration home">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15.5c1.6 1.2 3 1.2 4.5 0 1.5 1.2 3 1.2 4.5 0 1.5 1.2 3 1.2 4.5 0 1.5 1.2 2.9 1.2 4.5 0"/><path d="M5 12.5 12 5l7 7.5"/><path d="M12 5V2.6"/></svg>
+      </span>
+      <span class="bt">
+        <b>Rob&rsquo;s Marine Restoration</b>
+        <span class="tag">Lakeland, FL &middot; Boat Restoration</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <nav class="nav-links" aria-label="Primary">
+        <a class="link" href="#resurrections">Resurrections</a>
+        <a class="link" href="#work">The work</a>
+        <a class="link" href="#waitlist">Booking</a>
+        <a class="link" href="#reviews">Reviews</a>
+        <a class="link" href="#dropoff">Drop-off</a>
+      </nav>
+      <a class="txt-link" href="sms:+18639372975" aria-label="Text Rob&rsquo;s Marine Restoration at (863) 937-2975">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span class="label-txt">Text</span>
+      </a>
+      <a class="callbtn" href="tel:+18639372975" aria-label="Call Rob&rsquo;s Marine Restoration at (863) 937-2975">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="cn">(863) 937-2975<small>Call Rob</small></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-txt">
+          <p class="kicker">Boat Restoration &amp; Marine Upholstery &middot; Lakeland, Florida</p>
+          <h1>Lost causes, <span class="grad">brought back.</span></h1>
+          <p class="lede">Rob rebuilds boats the rest of the world has written off &mdash; <strong>rotten floors, stringers and transoms</strong> torn out and replaced, new fiberglass, marine carpet, seats, wiring, T-tops. And when a boat only needs new upholstery, that&rsquo;s the whole job.</p>
+          <div class="btns">
+            <a class="btn btn-mah" href="tel:+18639372975">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call (863) 937-2975
+            </a>
+            <a class="btn btn-ghost" href="#resurrections">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.6"/></svg>
+              See the resurrections
+            </a>
+          </div>
+          <div class="chip">
+            <span class="stars" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+            </span>
+            <span><b>4.9</b> average across <b>32</b> Google reviews</span>
+          </div>
+          <p class="note">Booked ahead &middot; Drop-off by appointment &middot; Mon&ndash;Thu 8&ndash;5, Fri 8&ndash;4</p>
+        </div>
+
+        <figure class="hero-shot">
+          <img src="https://images.unsplash.com/photo-1755594483726-d19aaf29740b?w=1100&amp;h=880&amp;q=74&amp;auto=format&amp;fit=crop"
+               width="1100" height="880" fetchpriority="high" decoding="async"
+               alt="The cockpit of a finished boat &mdash; helm, gauges, upholstered seating and varnished brightwork">
+          <figcaption class="cap">Helm, seating, brightwork &mdash; the finished end of the job</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="track">
+      <span>Lakeland, Florida</span><span><em>&#9670;</em></span><span>4.9 &#9733; &middot; 32 Google reviews</span><span><em>&#9670;</em></span><span>Floors &middot; Stringers &middot; Transoms</span><span><em>&#9670;</em></span><span>Marine carpet &amp; seats</span><span><em>&#9670;</em></span><span>Electronics, wiring &amp; T-tops</span><span><em>&#9670;</em></span><span>(863) 937-2975</span><span><em>&#9670;</em></span>
+      <span>Lakeland, Florida</span><span><em>&#9670;</em></span><span>4.9 &#9733; &middot; 32 Google reviews</span><span><em>&#9670;</em></span><span>Floors &middot; Stringers &middot; Transoms</span><span><em>&#9670;</em></span><span>Marine carpet &amp; seats</span><span><em>&#9670;</em></span><span>Electronics, wiring &amp; T-tops</span><span><em>&#9670;</em></span><span>(863) 937-2975</span><span><em>&#9670;</em></span>
+    </div>
+  </div>
+
+  <!-- ============ STAT BAND ============ -->
+  <section class="stats" aria-label="Rob&rsquo;s Marine Restoration at a glance">
+    <div class="wrap">
+      <div class="stat-grid">
+        <div class="stat reveal"><span class="n">4.9<span>&#9733;</span></span><span class="l">Google rating</span></div>
+        <div class="stat reveal"><span class="n">32</span><span class="l">Google reviews</span></div>
+        <div class="stat reveal"><span class="n">1979</span><span class="l">Oldest boat brought<br>back in a review</span></div>
+        <div class="stat reveal"><span class="n">6 <span>wks</span></span><span class="l">One customer&rsquo;s wait for<br>an opening &mdash; Rob called</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESURRECTIONS ============ -->
+  <section class="sec" id="resurrections" aria-labelledby="res-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">The lost causes</p>
+        <h2 id="res-h">Two boats nobody expected to see on the water again</h2>
+        <p>These are Rob&rsquo;s customers&rsquo; own Google reviews, quoted exactly as they wrote them. Both boats came in rotten. Both went home.</p>
+      </div>
+
+      <div class="cases">
+        <article class="case reveal">
+          <div class="shot">
+            <img src="https://images.unsplash.com/photo-1766431045548-80f04d8feef3?w=760&amp;h=760&amp;q=72&amp;auto=format&amp;fit=crop"
+                 width="760" height="760" loading="lazy" decoding="async"
+                 alt="The interior of an old wooden boat, weathered planking around an exposed engine">
+          </div>
+          <div class="body">
+            <span class="tagline">The 1979 family heirloom</span>
+            <h3>Custom built in 1979. Written off. Rebuilt.</h3>
+            <div class="q">
+              <p>&ldquo;My father purchased this boat new in 1979. We used it heavily when I was a child, but the boat was poorly maintained for the last 10+ years. It was my father&rsquo;s baby and he had it custom built in southern Kentucky from a company called &lsquo;Somerset&rsquo;.&rdquo;</p>
+              <p>&ldquo;My brother and I were given the boat and told it was pretty much a lost cause. The interior including the floor, stringers, and transom were completely rotten from being out in the weather. We took the boat to Rob and he was very up front with us telling us that the boat was going to take more money to fix than it was worth.&rdquo;</p>
+              <p>&ldquo;Rob completely gutted the boat and replaced all the bad wood and installed new fiberglass. He even rebuilt the supports for the windshield and the bow seats. The work is absolutely amazing! &hellip; Thank you to Rob for helping us put back together a &lsquo;family heirloom&rsquo;!&rdquo;</p>
+              <span class="by">Nathan A. &middot; Google review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="case reveal">
+          <div class="shot">
+            <img src="https://images.unsplash.com/photo-1649320099816-be6102b9f433?w=760&amp;h=760&amp;q=72&amp;auto=format&amp;fit=crop"
+                 width="760" height="760" loading="lazy" decoding="async"
+                 alt="A boat hull propped on stands in a yard with the bottom stripped back for repair">
+          </div>
+          <div class="body">
+            <span class="tagline">The 1975 Mako 23</span>
+            <h3>Under a tree since &rsquo;99. Back together, solid.</h3>
+            <div class="q">
+              <p>&ldquo;I brought him a 1975 Mako 23 center console with a 200hp Johnson that had been sitting under a tree rotting away since 99&rsquo;. He was able to rebuild the floor, install a whole mess of electronics and wiring with a T-Top among other things. The boat turned out exceptionally solid. It was money well spent and a heck of a lot cheaper than buying new.&rdquo;</p>
+              <p>&ldquo;Rob is very communicative, always returns phones calls/texts, and above all is honest and friendly. He was a pleasure to work with in this restoration project.&rdquo;</p>
+              <p>&ldquo;If your wanting to buy a vessel but also save some money, finding a worn out old boat that can be restored and upgraded by Rob is a very promising and adventerous option.&rdquo;</p>
+              <span class="by">Dallas &middot; Google review</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PULL QUOTE ============ -->
+  <section class="pull">
+    <div class="wrap">
+      <div class="inner reveal">
+        <span class="mk" aria-hidden="true">&ldquo;</span>
+        <blockquote>We took the boat to Rob and he was very up front with us telling us that the boat was going to take more money to fix than it was worth.</blockquote>
+        <cite>Nathan A. &middot; Google review &mdash; he took the job anyway</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE WORK ============ -->
+  <section class="sec" id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">The work</p>
+        <h2 id="work-h">Structure first, then everything you touch</h2>
+        <p>Every job listed here is one Rob&rsquo;s own customers describe in their reviews &mdash; nothing is on this page that a boat owner hasn&rsquo;t already put in writing.</p>
+      </div>
+
+      <div class="work">
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-7h6v7"/></svg></span>
+          <h3>Floors, stringers &amp; transoms</h3>
+          <p>The structural core of the hull. Rotten wood cut out and replaced, new fiberglass laid in, and the boat gutted back to bare where it has to be.</p>
+          <span class="src">Described by Nathan A., Tim P. &amp; Dallas</span>
+        </article>
+
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 4v16"/></svg></span>
+          <h3>Marine carpet</h3>
+          <p>Loose, torn and worn-through carpet pulled and replaced. One owner picked premium heavy-weight marine carpet and said the boat looked almost new afterward.</p>
+          <span class="src">Described by Robert W., Tim P. &amp; Philip P.</span>
+        </article>
+
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"/><path d="M3 15a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3H3z"/><path d="M6 18v2"/><path d="M18 18v2"/></svg></span>
+          <h3>Seats &amp; marine upholstery</h3>
+          <p>Bucket seats, pedestal bass seats, bow seating and their supports &mdash; replaced, rebuilt or re-covered, with old worn-out seats hauled away.</p>
+          <span class="src">Described by Tim P., Nathan A. &amp; Philip P.</span>
+        </article>
+
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17h16"/><path d="M6 17V9"/><path d="M18 17V9"/><path d="M3 9h18"/><path d="M12 9V4"/><path d="M9 4h6"/></svg></span>
+          <h3>T-tops &amp; hardware</h3>
+          <p>A T-top fitted to a center console, windshield supports rebuilt from scratch &mdash; the fabricated pieces that make an old hull usable again.</p>
+          <span class="src">Described by Dallas &amp; Nathan A.</span>
+        </article>
+
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 3v4"/><path d="M14 3v4"/><path d="M10 17v4"/><path d="M14 17v4"/><path d="M3 10h4"/><path d="M3 14h4"/><path d="M17 10h4"/><path d="M17 14h4"/></svg></span>
+          <h3>Electronics, wiring &amp; stereo</h3>
+          <p>A whole mess of electronics and wiring on one rebuild, a stereo system on another. The dash comes back working, not just looking right.</p>
+          <span class="src">Described by Dallas &amp; Philip P.</span>
+        </article>
+
+        <article class="job reveal">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/></svg></span>
+          <h3>Finding the right parts</h3>
+          <p>One owner got two used bucket seats that matched his boat perfectly &mdash; and a pair of matching pedestal bass seats &mdash; sourced through Rob rather than special-ordered new.</p>
+          <span class="src">Described by Tim P.</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPLIT: STRUCTURE ============ -->
+  <section class="sec" aria-labelledby="struct-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="split reveal">
+        <figure class="shot" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1779884801681-37d4f4cc0feb?w=940&amp;h=705&amp;q=72&amp;auto=format&amp;fit=crop"
+               width="940" height="705" loading="lazy" decoding="async"
+               alt="Weathered wooden planking and frames inside an open boat hull">
+        </figure>
+        <div class="txt">
+          <p class="eyebrow">Under the carpet</p>
+          <h2 id="struct-h">A soft floor is never just a floor</h2>
+          <p>By the time a deck flexes underfoot, water has usually been in the wood a long time &mdash; and it rarely stopped at the floor. On the 1979 heirloom the floor, stringers <em>and</em> transom were all rotten through. On a 1996 Javelin the floor had broken clean through.</p>
+          <p>Rob&rsquo;s answer in both cases was the same: open it up, replace the bad wood, glass it back in, then put the carpet and seats over a hull that&rsquo;s actually sound.</p>
+          <ul class="ticks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>He tells you first.</b> One owner was told outright the boat would cost more to fix than it was worth &mdash; before any work started.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>Quoted, then done.</b> A price and a timeline up front, and a call when the opening comes around.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>Family shop.</b> One customer describes Rob and his son working the job together and explaining every step of it.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPLIT: UPHOLSTERY ============ -->
+  <section class="sec" aria-labelledby="uph-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="split flip reveal">
+        <figure class="shot" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1756758822288-0c92645edc11?w=940&amp;h=705&amp;q=72&amp;auto=format&amp;fit=crop"
+               width="940" height="705" loading="lazy" decoding="async"
+               alt="A padded marine vinyl seat and bench inside a boat cabin beside a window over the water">
+        </figure>
+        <div class="txt">
+          <p class="eyebrow">Marine upholstery</p>
+          <h2 id="uph-h">Sometimes the hull is fine and the inside is tired</h2>
+          <p>Not every boat that comes to Rob is a rescue. Plenty just need what they sit on and walk on put right &mdash; carpet, seats, cushions, the pieces that decide whether a twenty-year-old boat feels twenty years old.</p>
+          <p>Carpet matched to what&rsquo;s already there. Seats replaced, rebuilt, or swapped for a matched set that suits the boat. And the old eye-sore bench that&rsquo;s bothered you for eight years finally gone.</p>
+          <ul class="ticks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>Bass boats and center consoles</b> &mdash; bass trackers, Javelins, Nitros and Makos all appear in his reviews by name.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>Carpet-only jobs welcome.</b> Removing and replacing carpet is, as one owner put it, a tough job he wouldn&rsquo;t get to himself.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span><b>Matched, not approximate.</b> One owner&rsquo;s new carpet matched his existing carpet perfectly, and his replacement seats matched the boat.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WAITLIST / BOOKING ============ -->
+  <section class="sec" id="waitlist" aria-labelledby="wait-h">
+    <div class="wrap">
+      <div class="wait reveal">
+        <p class="kicker">Booking</p>
+        <h3 id="wait-h">Rob books ahead &mdash; and then he calls</h3>
+        <p>One-man-plus-son shops that do this kind of work fill up, and Rob&rsquo;s does. The part worth knowing isn&rsquo;t that there&rsquo;s a wait; it&rsquo;s what happened when the wait was over. A bass tracker owner was quoted a price and a three-week build, told the next opening was six weeks out, and got a phone call six weeks later to start.</p>
+        <div class="q">
+          &ldquo;His next opening was 6 weeks away. He called me 6 weeks later and started on my boat we selected premium heavy wieght marine carpet. Three weeks later it was done. The carpet made the boat look almost new in fact I have ordered new seats to complete the boat.&rdquo;
+          <span class="by">Robert W. &middot; Google review</span>
+        </div>
+        <p>That was one customer&rsquo;s job on one boat &mdash; not a promise about yours. Call Rob and ask what his next opening looks like and what your boat needs; he&rsquo;ll tell you straight, including when it isn&rsquo;t worth doing.</p>
+        <div class="btns">
+          <a class="btn btn-mah" href="tel:+18639372975">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Ask about the next opening
+          </a>
+          <a class="btn btn-ghost" href="sms:+18639372975">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Text photos of your boat
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section class="sec" id="reviews" aria-labelledby="rev-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head mid reveal">
+        <p class="eyebrow">In their words</p>
+        <h2 id="rev-h">What boat owners in Polk County say</h2>
+        <p>Real reviews from Rob&rsquo;s Google profile, quoted as written and attributed the way the reviewers signed them.</p>
+      </div>
+
+      <div class="rev-grid">
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;Rob is clearly good at what he does and I was greatful I found his service becuase removing and replacing carpet is a tough job that I wouldnt get to. I highly reccomend him to carpet or restore any boat especically a bass tracker!&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">R</span><span><b>Robert W.</b><span>2004 Bass Tracker PT175</span></span></div>
+        </article>
+
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;The carpet job he did was perfectly done and matched my existing carpet perfectly Him and his son did a phenomenal job very high quality workmanship and complete professionalism with the way they spoke to me and explained everything they were going to do and what needed to be done to get my boat back up to tip top shape&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">T</span><span><b>Tim P.</b><span>1996 19ft Javelin</span></span></div>
+        </article>
+
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;Rob replaced the carpet and seats on my 2005 Nitro. He also installed a stereo system. Now my boat looks brand new. Great job and I would highly recommend.&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">P</span><span><b>Philip P.</b><span>2005 Nitro</span></span></div>
+        </article>
+
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;I also was able to purchase two bucket seats that matched my boat perfectly which were used but in immaculate condition and was able to get rid of my previous three seats that went across my drivers area and has been a real eye sore to me since I purchased my boat about 8 years ago&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">T</span><span><b>Tim P.</b><span>On sourcing matched seats</span></span></div>
+        </article>
+
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;Rob completely gutted the boat and replaced all the bad wood and installed new fiberglass. He even rebuilt the supports for the windshield and the bow seats. The work is absolutely amazing! Rob did a great job and I would highly recommend him to anyone that needs boat service.&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">N</span><span><b>Nathan A.</b><span>1979 Somerset</span></span></div>
+        </article>
+
+        <article class="rev reveal">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          </span>
+          <p>&ldquo;Rob&rsquo;s Marine Restoration Will Be The Only Restoration Business I Will Ever Use Going Forward &mdash; Definitely a 5 star business&rdquo;</p>
+          <div class="who"><span class="av" aria-hidden="true">T</span><span><b>Tim P.</b><span>Google review</span></span></div>
+        </article>
+      </div>
+
+      <p class="rev-foot">Rob&rsquo;s Google profile currently averages 4.9 stars across 32 reviews. Quotes above are excerpted where a review runs long, marked with an ellipsis, and never reworded.</p>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY STRIP ============ -->
+  <section class="sec" aria-label="Boats and finished work" style="padding-top:0">
+    <div class="wrap">
+      <div class="strip">
+        <figure class="tile reveal" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1745875513449-f54f017b880d?w=760&amp;h=570&amp;q=72&amp;auto=format&amp;fit=crop"
+               width="760" height="570" loading="lazy" decoding="async"
+               alt="A timber deck and rug aboard a classic boat moored at a dock">
+          <figcaption class="cap">Decks &amp; finish</figcaption>
+        </figure>
+        <figure class="tile reveal" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1755594483726-d19aaf29740b?w=760&amp;h=570&amp;q=72&amp;auto=format&amp;fit=crop"
+               width="760" height="570" loading="lazy" decoding="async"
+               alt="A boat helm with gauges, wheel and upholstered seating">
+          <figcaption class="cap">Helm &amp; seating</figcaption>
+        </figure>
+        <figure class="tile reveal" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1786892669113-0fcf33cdc7c8?w=760&amp;h=570&amp;q=72&amp;auto=format&amp;fit=crop"
+               width="760" height="570" loading="lazy" decoding="async"
+               alt="A small boat sitting on a still lake with wooded hills behind it">
+          <figcaption class="cap">Where it ends up</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DROP-OFF ============ -->
+  <section class="sec" id="dropoff" aria-labelledby="drop-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Getting your boat to Rob</p>
+        <h2 id="drop-h">Drop-off is by appointment</h2>
+        <p>Rob works out of a private shop in Lakeland rather than a walk-in storefront, so boats come in on a scheduled drop-off. Call first &mdash; he&rsquo;ll talk through the boat, tell you whether it&rsquo;s worth doing, and give you the address and a time when you book.</p>
+      </div>
+
+      <div class="visit-grid">
+        <div class="panel reveal">
+          <h3>Call or text Rob</h3>
+          <p>Reviewers describe him as easy to reach &mdash; one wrote that he &ldquo;always returns phones calls/texts.&rdquo; Photos of the problem area sent by text are a good way to start.</p>
+          <div class="dropplate">
+            <span class="st">Lakeland, Florida &middot; Polk County</span>
+            <span class="ct">Private shop &mdash; address given when you book</span>
+          </div>
+          <div class="links">
+            <a class="btn btn-mah" href="tel:+18639372975">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              (863) 937-2975
+            </a>
+            <a class="btn btn-ghost" href="sms:+18639372975">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              Text a photo
+            </a>
+          </div>
+          <p class="fact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Lakeland sits in the middle of Polk County&rsquo;s lake country &mdash; boats come to Rob on their trailers from around the chain.</span>
+          </p>
+        </div>
+
+        <div class="panel reveal">
+          <h3>Hours</h3>
+          <ul class="hours" id="hours">
+            <li data-day="1"><span class="d">Monday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+            <li data-day="2"><span class="d">Tuesday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+            <li data-day="3"><span class="d">Wednesday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+            <li data-day="4"><span class="d">Thursday</span><span class="t">8:00 AM &ndash; 5:00 PM</span></li>
+            <li data-day="5"><span class="d">Friday</span><span class="t">8:00 AM &ndash; 4:00 PM</span></li>
+            <li data-day="6"><span class="d">Saturday</span><span class="t closed">Closed</span></li>
+            <li data-day="0"><span class="d">Sunday</span><span class="t closed">Closed</span></li>
+          </ul>
+          <p class="hours-note">Weekdays only &mdash; an early start Monday through Thursday and a shorter Friday, with the weekend off. These are the hours listed on Google; give Rob a call to confirm before you hitch up, since he may be out on a hull.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="cta-band" aria-labelledby="cta-h">
+    <div class="wrap reveal">
+      <h2 id="cta-h">Think yours is too far gone?</h2>
+      <p>So did the family with the 1979 heirloom, and so did the man whose Mako sat under a tree for twenty-odd years. Tell Rob what the boat is, what&rsquo;s soft, and what you want out of it &mdash; and he&rsquo;ll tell you honestly whether it&rsquo;s worth the money.</p>
+      <div class="btns">
+        <a class="btn btn-mah" href="tel:+18639372975">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (863) 937-2975
+        </a>
+        <a class="btn btn-ghost" href="sms:+18639372975">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          Text Rob a photo
+        </a>
+      </div>
+      <p class="fine">Boat restoration &amp; marine upholstery &middot; Lakeland, FL &middot; Drop-off by appointment</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15.5c1.6 1.2 3 1.2 4.5 0 1.5 1.2 3 1.2 4.5 0 1.5 1.2 3 1.2 4.5 0 1.5 1.2 2.9 1.2 4.5 0"/><path d="M5 12.5 12 5l7 7.5"/><path d="M12 5V2.6"/></svg>
+          </span>
+          <span class="bt">
+            <b>Rob&rsquo;s Marine Restoration</b>
+            <span class="tag">Lakeland, FL &middot; Boat Restoration</span>
+          </span>
+        </div>
+        <p class="desc">Boat restoration and marine upholstery in Lakeland, Florida &mdash; floors, stringers and transoms rebuilt, fiberglass, marine carpet, seats, wiring, T-tops and stereo. Drop-off by appointment.</p>
+        <div class="foot-contact">
+          <a class="btn btn-mah" href="tel:+18639372975">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Rob
+          </a>
+          <a class="btn btn-ghost" href="sms:+18639372975">Text us</a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h4>The shop</h4>
+        <ul>
+          <li><a href="#resurrections">Resurrections</a></li>
+          <li><a href="#work">The work</a></li>
+          <li><a href="#waitlist">Booking</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Contact &amp; drop-off</h4>
+        <ul>
+          <li><a href="tel:+18639372975"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(863) 937-2975</a></li>
+          <li><a href="sms:+18639372975"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>Text a photo</a></li>
+          <li><span class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Lakeland, FL &middot; by appointment</span></li>
+          <li><a href="#dropoff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Mon&ndash;Thu 8&ndash;5 &middot; Fri 8&ndash;4</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>&copy; <span id="yr">2026</span> Rob&rsquo;s Marine Restoration. All rights reserved.</span>
+      <span>Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a></span>
+    </div>
+    <p class="foot-note">Reviews on this page are real customer reviews from Google, quoted as written &mdash; spelling and all &mdash; and never rewritten; longer reviews are excerpted with an ellipsis. <strong>Photography here is stock marine photography, not pictures of Rob&rsquo;s own work</strong> &mdash; his before-and-after photos can replace it. The shop is a private drop-off location, so no street address is published; Rob gives it out when you book.</p>
+  </div>
+</footer>
+
+</div>
+
+<script>
+  document.documentElement.classList.add('js');
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  (function(){
+    var header = document.querySelector('header.site');
+    function onScroll(){ if(header) header.classList.toggle('is-scrolled', window.scrollY > 8); }
+    onScroll();
+    window.addEventListener('scroll', onScroll, {passive:true});
+  })();
+
+  (function(){
+    var today = new Date().getDay();
+    var li = document.querySelector('#hours li[data-day="' + today + '"]');
+    if(li) li.classList.add('today');
+  })();
+
+  (function(){
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var els = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+    if(reduce || !('IntersectionObserver' in window)){
+      els.forEach(function(el){ el.classList.add('is-visible'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    }, {rootMargin:'0px 0px 12% 0px', threshold:0});
+    els.forEach(function(el){ io.observe(el); });
+
+    var sweepTimer = null;
+    var sweep = function(){
+      sweepTimer = null;
+      var vh = window.innerHeight;
+      els = els.filter(function(el){
+        if(el.classList.contains('is-visible')) return false;
+        if(el.getBoundingClientRect().top < vh){ el.classList.add('is-visible'); io.unobserve(el); return false; }
+        return true;
+      });
+    };
+    window.addEventListener('scroll', function(){ if(!sweepTimer) sweepTimer = setTimeout(sweep, 90); }, {passive:true});
+  })();
+</script>
+</body>
+</html>
